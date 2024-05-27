@@ -6,7 +6,19 @@ def lungimestr():
     except ValueError:
         print('Trebuie sa introduceti string')
 
-lungimestr()
+#lungimestr()
 
 
 #6 Fiind dat un dictionar {"a":1,"b":2,"c":3} scrieti o functie care primeste ca parametru cheia si returneaza valoarea
+
+def dictionar():
+    dict={
+        "a":1,
+        "b":2,
+        "c":3
+        }
+    n=input("Alegeti dintre a,b sau c")
+    key=dict[n]
+    print(key)
+
+dictionar()
